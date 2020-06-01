@@ -1,0 +1,38 @@
+{
+  "name": "anna-farm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oleksandr-bilyk/AnnaFarm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oleksandr-bilyk/AnnaFarm/issues"
+  },
+  "homepage": "https://github.com/oleksandr-bilyk/AnnaFarm#readme",
+  "devDependencies": {
+    "webpack": "4.42.1",
+    "webpack-cli": "3.3.11",
+    "webpack-dev-server": "^3.10.3",
+    "@types/react": "^16.8.19",
+    "@types/react-dom": "^16.8.4",
+    "@uifabric/example-data": "7.0.5",
+    "@uifabric/fluent-theme": "7.1.26",
+    "@uifabric/styling": "7.10.14",
+    "@babel/core": "^7.8.4",
+    "fable-compiler": "^2.4.15",
+    "fable-loader": "^2.1.8"
+  },
+  "dependencies": {
+    "office-ui-fabric-core": "11.0.0",
+    "office-ui-fabric-react": "7.93.0",
+    "react": "16.12.0",
+    "react-dom": "16.12.0"
+  }
+}
